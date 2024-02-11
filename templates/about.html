@@ -3,9 +3,15 @@
 <head> 
     <meta charset="UTF-8"> 
     <title>My Website - About</title> 
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/app.css') }}" />
 </head> 
 <body>  
-    <h1>Aubrianna</h1> 
-    <p>3rd year student trying her best.</p> 
+    <h1>Aubrianna Falloon</h1> 
+    <p>3rd year student trying her best. Future Web Developer? Maybe. Future software engineer?
+        Probably not.   I do enjoy seeing the final result, so I might be interested in some
+        front-end work. <br />
+        I also like memes and reading, hopefully I can incorporate that into my work.
+    </p> 
+    <img src="{{ url_for('static', filename='duck_with_bread.png') }}" alt="A duck with bread">
 </body> 
 </html>
